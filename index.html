@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Far Away</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <div class="purches">
+          <h1>
+            <i id="btnOfCut" class="fas fa-times 7x"></i>
+          </h1>
+          <h1 id="subscritions">
+            Get Subscription And Make Your Trip More Comfortable
+          </h1>
+          <div class="premium">
+            <div class="normal">
+              <div class="innerNormalBox">
+                <h1 class="innerHeadin">Normal</h1>
+                <br />
+                <img class="rank" src="/images/normal.png" alt="" />
+              </div>
+              <br />
+              <div class="edittable">
+                <div class="price">
+                  <h1 class="priceMark">Price</h1>
+                  <h2 class="rate">199 &#8377;</h2>
+                </div>
+                <div class="qualiesOfSubcription">
+                  <li>Good hotel</li>
+                  <li>Good service</li>
+                  <li>Good car for Traveling</li>
+                </div>
+                <div class="subscriptionBuyBtn">
+                  <button class="buyBtn2">Buy Now</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="legend">
+              <div class="innerNormalBox">
+                <h1 class="innerHeadin">Legend</h1>
+                <br />
+                <img class="legendRank" src="/images/legend.png" alt="" />
+              </div>
+              <br />
+              <div class="edittable">
+                <div class="price">
+                  <h1 class="priceMark">Price</h1>
+                  <h2 class="rate">999 &#8377;</h2>
+                </div>
+                <div class="qualiesOfSubcription">
+                  <li>Good hotel</li>
+                  <li>Good service</li>
+                  <li>Good car for Traveling</li>
+                </div>
+                <div class="subscriptionBuyBtn">
+                  <button class="buyBtn2">Buy Now</button>
+                </div>
+              </div>
+            </div>
+            <div class="super">
+              <div class="innerNormalBox">
+                <h1 class="innerHeadin">Super</h1>
+                <img class="SuperRank" src="/images/super.png" alt="" />
+              </div>
+              <br />
+              <div class="edittable">
+                <div class="price">
+                  <h1 class="priceMark">Price</h1>
+                  <h2 class="rate">399 &#8377;</h2>
+                </div>
+                <div class="qualiesOfSubcription">
+                  <li>Good hotel</li>
+                  <li>Good service</li>
+                  <li>Good car for Traveling</li>
+                </div>
+                <div class="subscriptionBuyBtn">
+                  <button class="buyBtn2">Buy Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <header>
+      <div class="loadingPage">
+        <div class="loading">
+          <div class="loadingBox">
+            <img src="/images/loading.gif" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="main">
+      <header class="topNavBar">
+        <div id="nav" class="nav">
+          <span class="logo">Far Away</span>
+          <nav>
+            <span id="menu" onclick="menuBar()">☰</span>
+            <ul class="list">
+              <li><a class="oneA" href="\Website Project\Web.html">Home</a></li>
+              <li>
+                <a
+                  class="oneA"
+                  href="\Website Project\WebAboutPagesFile\WebAbout.html"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="oneA"
+                  href="Website Project/WebServicePagesFile/WebService.html"
+                  >Service</a
+                >
+              </li>
+              <li>
+                <a
+                  class="oneA"
+                  href="\Website Project\webContactPages\webContact.html"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a
+                  class="oneA"
+                  href="/Website Project/WebBlogPages/WebBlog.html"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <span id="sign">Sign up</span>
+        </div>
+        <div class="innerNav">
+          <ul class="lt" style="margin-left: 39px">
+            <li><a class="oneB" href="\Website Project\Web.html">Home</a></li>
+            <li>
+              <a
+                class="oneB"
+                href="Website Project\WebAboutPagesFile\WebAbout.html"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="oneB"
+                href="Website Project/WebServicePagesFile/WebService.html"
+                >Service</a
+              >
+            </li>
+            <li>
+              <a
+                class="oneB"
+                href="\Website Project\webContactPages\webContact.html"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a class="oneB" href="/Website Project/WebBlogPages/WebBlog.html"
+                >Blog</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <section>
+        <div class="siderbase">
+          <div class="slider">
+            <i
+              onclick="onLeft()"
+              id="leftArrow"
+              class="fas fa-arrow-left"
+              alt="Left Arrow"
+            ></i>
+            <img id="photo" src="/web project images/img4.jpg" alt="" />
+            <i
+              onclick="onRight()"
+              id="rightArrow"
+              class="fas fa-arrow-right"
+              alt="Right Arrow"
+            ></i>
+          </div>
+        </div>
+        <div class="count">
+          <div class="promo">
+            <h1 class="innerPromo">Always Travel With Us</h1>
+          </div>
+        </div>
+      </section>
+      <div class="conuter">
+        <div class="innerCounter">
+          <div class="like">
+            <i id="like1" class="fas fa-heart boot"></i>
+            <h3 class="h3family">Like</h3>
+            <h5 id="like" class="numCount size" data-like="5000"></h5>
+          </div>
+          <div class="happy">
+            <i id="like2" class="fas fa-smile-beam boot"></i>
+            <h3 class="h3family">Happy Customer</h3>
+            <h5 id="happy" class="numCount size" data-like="1000"></h5>
+          </div>
+          <div class="reviwe">
+            <i id="like3" class="fas fa-handshake boot"></i>
+            <h3 class="h3family">Partner</h3>
+            <h5 id="review" class="numCount size" data-like="2000"></h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- sign in option is here -->
+      <section class="class2">
+        <div id="touchpad" class="sginbox">
+          <i id="cross" class="fas fa-times"></i>
+          <div class="innersginbox">
+            <span class="Form">Sign Up</span>
+            <br />
+            <br />
+            <legend>
+              Email
+              <input
+                type="email"
+                name=""
+                id="email"
+                placeholder="Enter Your Email"
+                required
+              />
+            </legend>
+            <br />
+            <legend>
+              Password
+              <label for="Password"></label>
+              <br />
+              <input
+                type="password"
+                name=""
+                id="password"
+                placeholder="Password"
+                required
+              />
+            </legend>
+          </div>
+          <div class="lodingWithDash">
+            <h1></h1>
+            <h1></h1>
+            <h1></h1>
+          </div>
+        </div>
+        <div class="buy">
+          <button id="buy">Get premium Ship</button>
+        </div>
+      </section>
+      <!-- main contend -->
+      <div class="mainContend">
+        <div class="rowOfPlace">
+          <div class="onePlace">
+            <h1 class="workCenter">
+              <img src="/web project images/des-1.jpg" alt="" />
+            </h1>
+            <h3 class="captions">Island</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="info">Read more</button>
+          </div>
+          <div class="onePlace">
+            <h1 class="workCenter">
+              <img src="/web project images/des-2.jpg" alt="" />
+            </h1>
+            <h3 class="captions">Camping</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="info">Read more</button>
+          </div>
+          <div class="onePlace">
+            <h1 class="workCenter">
+              <img src="/web project images/des-5.jpg" alt="" />
+            </h1>
+            <h3 class="captions">Beach</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="info">Read more</button>
+          </div>
+          <div class="onePlace">
+            <h1 class="workCenter">
+              <img src="/web project images/des-6.jpg" alt="" />
+            </h1>
+            <h3 class="captions">Ocean</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="info">Read more</button>
+          </div>
+          <div class="onePlace">
+            <h1 class="workCenter">
+              <img src="/web project images/des-7.jpg" alt="" />
+            </h1>
+            <h3 class="captions">Resort</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="info">Read more</button>
+          </div>
+          <div class="onePlace">
+            <h1 class="workCenter">
+              <img src="/web project images/des-8.jpg" alt="" />
+            </h1>
+            <h3 class="captions">Beach</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button class="info">Read more</button>
+          </div>
+        </div>
+
+        <!-- Detail Down Scroll -->
+        <div class="downRoll">
+          <div class="moreScrollBtn">
+            <h3 id="details">Show More</h3>
+          </div>
+          <div class="moreScrollBtn">
+            <i id="moreDetail" class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+
+        <!-- after clicking down scroll button it will see -->
+        <div class="moreScroll">
+          <div class="rowOfPlace">
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-1.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Island</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-2.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Camping</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-5.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Beach</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-6.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Mountain</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-7.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Resort</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-8.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Beach</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+          </div>
+          <div class="rowOfPlace">
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-1.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Island</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-2.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Camping</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-5.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Beach</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-6.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Ocean</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-7.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Resort</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Show more</button>
+            </div>
+            <div class="onePlace">
+              <h1 class="workCenter">
+                <img src="/web project images/des-8.jpg" alt="" />
+              </h1>
+              <h3 class="captions">Beach</h3>
+              <p class="description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+              <button class="info">Read more</button>
+            </div>
+          </div>
+        </div>
+        <!-- contend end here -->
+
+        <!-- up Roll button  -->
+        <div class="upRoll">
+          <div class="moreScrollBtn">
+            <i id="moreDetail2" class="fas fa-chevron-up"></i>
+          </div>
+        </div>
+        >
+
+        <!-- Booking page -->
+        <section>
+          <div class="overBody">
+            <div class="allDetalis">
+              <!-- Left Hand Side Work -->
+              <div class="priceBox">
+                <h1><i id="btnOfCutOfBuyPage" class="fas fa-times 7x"></i></h1>
+                <div class="ClickImg">
+                  <img
+                    id="dynamicalChanger"
+                    src="/web project images/des-1.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="priceOfBooking">
+                  <h1 id="changeableTitle">Island</h1>
+                  <hr style="width: 100%" />
+                  <h1>3999Rs</h1>
+                  <p class="PlaceDescription" id="PlaceDescription"></p>
+                  <button id="BookingBtn">Buy Now</button>
+                </div>
+              </div>
+              <!-- Right Hand Side Work -->
+              <div class="moreDetail">
+                <div class="moreImgSlider">
+                  <i id="leftArrowOfImgs1" class="fas fa-arrow-left arrows"></i>
+                  <div class="descriptionMoreImgs transitionEffect">
+                    <img
+                      class="firstImg"
+                      id="mainAttributeOfImgTag"
+                      src="/images/decsriptionImg1.jfif"
+                      alt=""
+                    />
+                  </div>
+                  <i
+                    id="leftArrowOfImgs2"
+                    class="fas fa-arrow-right arrows"
+                  ></i>
+                </div>
+                <h1 id="moreImgsHeading">See More Place</h1>
+                <div class="moerImgs">
+                  <div class="swipLeft">
+                    <i class="fas fa-chevron-circle-left"></i>
+                  </div>
+                  <div class="boxFordetails">
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-2.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-3.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-4.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-5.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-6.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-7.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-8.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-1.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-2.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-3.jpg"
+                      alt=""
+                    />
+                    <img
+                      class="scrollingImg"
+                      src="/web project images/des-4.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="swipRight">
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Good qualities of our Company -->
+        <section class="bottomSection">
+          <div class="qualities">
+            <div class="writen">
+              <h1>Why Should We Choose This Site For Traveling ?</h1>
+              <br />
+              <br />
+              <h1 class="innerh1">Answer</h1>
+              <ul>
+                <li>On Time</li>
+                <li>No Any Excuses</li>
+                <li>Good Service</li>
+                <li>Good Food</li>
+                <li>Top Notch Hotels With Pool</li>
+              </ul>
+            </div>
+            <div class="gif">
+              <img src="/images/familyPic.png" alt="" class="familyPic" />
+            </div>
+          </div>
+        </section>
+        <!-- End of website content -->
+      </div>
+
+      <!-- Footer of website below -->
+      <footer>
+        <div class="footer">
+          <div class="footerInnerContent">
+            <ul>
+              <li><a href="\Website Project\Web.html">Home</a></li>
+              <li>
+                <a href="Website Project\WebAboutPagesFile\WebAbout.html"
+                  >FAQ</a
+                >
+              </li>
+              <li>
+                <a href="\Website Project\webContactPages\webContact.html"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="Website Project/WebServicePagesFile/WebService.html"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="/Website Project/WebBlogPages/WebBlog.html">Blog</a>
+              </li>
+              <li><a href="#">Copyright &copy;</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- End of website footer -->
+
+      <!-- javascript links are here-->
+      <script src="index.js"></script>
+      <script
+        src="https://kit.fontawesome.com/46d39d7ced.js"
+        crossorigin="anonymous"
+      ></script>
+    </div>
+  </body>
+</html>
